@@ -24,6 +24,6 @@ int main()
     default:
         printf("\nInvalid Operator");
     }
-    printf("The value = %.0f", result);//If you want result in decimals like 24.0000 then remove .0
+    printf("The value = %f", result);
     return 0;
 }
